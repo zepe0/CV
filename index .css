@@ -28,6 +28,7 @@ li{
   background-color: rgba(167, 166, 166, 0.2);
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .avatarBacksecon {
@@ -64,7 +65,7 @@ li{
 }
 .main {
   display: flex;
-  gap: 1rem;
+  gap: rem;
   flex-direction: row;
 
   justify-content: center;
@@ -128,4 +129,14 @@ li{
   color: rgba(184, 89, 54, 0.714);
   margin: 10px;
  
+}
+@media screen and (min-width: 375px){
+  .main{
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+ 
+  }
+  
 }

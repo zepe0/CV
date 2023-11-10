@@ -28,6 +28,8 @@ li{
   background-color: rgba(167, 166, 166, 0.2);
   display: flex;
   justify-content: center;
+  align-items: center;
+  
   width: 100%;
 }
 
@@ -137,6 +139,10 @@ li{
     gap: 1rem;
     padding: 1rem;
  
+  }
+  .avatarBack{
+    width: 110%;
+    margin: 0;
   }
   
 }
